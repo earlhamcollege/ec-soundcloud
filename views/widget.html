@@ -1,0 +1,18 @@
+<div id="test">
+    <img id='user-image' src='{{data.data.avatar_url}}'>
+    <span id='user-name'>
+        {{ data.data.username }}
+    </span>
+
+    <span style='background-color: chartreuse'>
+        {{ data.widget | json }}
+    </span>
+    <span style='background-color: crimson'>
+        {{ apos.data| json }}
+    </span>
+    </br>
+    <span id='user-desc'>
+        {{ data.data.description }}
+    </span>
+    <table id="tracks"></table>
+</div>
