@@ -1,0 +1,13 @@
+<div id="test">
+    <img id='user-image' src='{{data.avatar_url}}'>
+    <span id='user-name'>
+        {{ data.data.username }}
+    </span>
+        {{ data.data | json }}
+    </br>
+    <span id='user-desc'>
+        {{ data.data.description }}
+    </span>
+    <table id="tracks"></table>
+</div>
+
