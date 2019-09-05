@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/earlhamcollege/ec-soundcloud/issues"
   },
-  "homepage": "https://github.com/earlhamcollege/ec-soundcloud#readme"
+  "homepage": "https://github.com/earlhamcollege/ec-soundcloud#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
