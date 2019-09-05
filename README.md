@@ -16,15 +16,15 @@ From within your apostrophe project directory, run
 Include widget in projects' app.js file:
 
 ```
-    bundles: ['ec-soundcloud'],
-    modules: {
-        'ec-soundcloud': {},
-        'apostrophe-express': {
-            csrf: {
-                exceptions: ['soundcloud']
-            }
-        },
-        // ... other modules
+bundles: ['ec-soundcloud'],
+modules: {
+    'ec-soundcloud': {},
+    'apostrophe-express': {
+        csrf: {
+            exceptions: ['soundcloud']
+        }
+    },
+    // ... other modules
 }
 ```
 
