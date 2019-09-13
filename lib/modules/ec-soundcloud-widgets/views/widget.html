@@ -1,17 +1,22 @@
-<div id="soundcloud-container">
-    <div id="user-info">
-        <img id='user-image'>
-        <span id='user-name'></span>
-        </br>
-        <span id='user-desc'></span>
+{% if "track" in data.absoluteUrl | string %}
+    <div id="soundcloud-focus">
+        <h1>Track focus coming soon</h1>
     </div>
-    </br>
-    {% if data.widget.feature_count != 0 %}
-        <div id="feature-container">
-        {% for i in range(0, data.widget.feature_count) %}<div id="feature-{{i}}" class="feature-block"></div>{% endfor %}
+{% else %}
+    <div id="soundcloud-container">
+        <div id="user-info">
+            <img id='user-image'>
+            <span id='user-name'></span>
+            </br>
+            <span id='user-desc'></span>
         </div>
-    {% endif %}
-    </br>
-    <table class="table table-striped" id="tracks"></table>
-    
-</div>
+        </br>
+        {% if data.widget.feature_count != 0 %}
+            <div id="feature-container">
+            {% for i in range(0, data.widget.feature_count) %}<div id="feature-{{i}}" class="feature-block"></div>{% endfor %}
+            </div>
+        {% endif %}
+        </br>
+        <table class="table table-striped" id="tracks"></table>
+    </div>
+{% endif %}
