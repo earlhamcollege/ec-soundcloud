@@ -1,11 +1,11 @@
 {% if "track" in data.absoluteUrl | string %}
     <div id="soundcloud-focus">
         <div id="track-info">
-            <img id='track-image'>
             <span id='track-name'></span>
             </br>
             <span id='track-desc'></span>
         </div>
+        <iframe id="track-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src=""></iframe>   
     </div>
 {% else %}
     <div id="soundcloud-container">
