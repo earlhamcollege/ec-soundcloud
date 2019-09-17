@@ -1,5 +1,16 @@
 {% if "track" in data.absoluteUrl | string %}
     <div id="soundcloud-focus">
+        <div>
+            <span id='podcast-title'>The Earlham College Podcast</span>
+            <div id='podcast-nav'>
+                <div alt='Previous Episode' id='focus-backbtn' class='navbtn'>
+                    <i class="fa fa-arrow-left"></i>
+                </div>
+                <div alt='Next Episode' id='focus-forwardbtn' class='navbtn'>
+                    <i class="fa fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
         <div id="track-info">
             <span id='track-name'></span>
             </br>
