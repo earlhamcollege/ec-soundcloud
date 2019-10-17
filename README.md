@@ -43,7 +43,7 @@ modules: {
 ```
 
 ### Screenshots
-//to be added
+![Focus View](http://porterlibby.herokuapp.com/img_content/ec-soundcloud.png)
 
 ### License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
