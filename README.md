@@ -29,7 +29,18 @@ modules: {
 ```
 
 ### Configuration
-//to be added
+If you want your soundcloud environment settings to be global, use the following app.js adjustments:
+
+```
+modules: {
+    settings: {
+        alias: 'settings',
+        client_id: '<your client id from soundcloud account>',
+        api_key: '<your api key for the soundcloud api>'
+    }
+  // ... other modules, etc.
+}
+```
 
 ### Screenshots
 //to be added
