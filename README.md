@@ -34,18 +34,7 @@ modules: {
 ```
 
 ### Configuration
-If you want your soundcloud environment settings to be global, use the following app.js adjustments:
-
-```
-modules: {
-    settings: {
-        alias: 'settings',
-        client_id: '<your client id from soundcloud account>',
-        api_key: '<your api key for the soundcloud api>'
-    }
-  // ... other modules, etc.
-}
-```
+todo
 
 ### Screenshots
 ![Focus View](http://porterlibby.herokuapp.com/img_content/ec-soundcloud.png)
