@@ -1,8 +1,10 @@
 ## EC-SOUNDCLOUD Module
-An [Apostrophe CMS](http://apostrophecms.org/) module to provide customizable tools for soundcloud widgets.
+
 [![npm version](https://badge.fury.io/js/ec-soundcloud.svg)](https://badge.fury.io/js/ec-soundcloud)
 [![GitHub issues](https://img.shields.io/github/issues/earlhamcollege/ec-soundcloud)](https://github.com/earlhamcollege/ec-soundcloud/issues)
 [![GitHub license](https://img.shields.io/github/license/earlhamcollege/ec-soundcloud)](https://github.com/earlhamcollege/ec-soundcloud/blob/master/LICENSE)
+
+An [Apostrophe CMS](http://apostrophecms.org/) module to provide customizable tools for soundcloud widgets.
 
 
 ### GETTING STARTED
