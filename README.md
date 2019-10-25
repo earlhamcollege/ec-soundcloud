@@ -18,8 +18,9 @@ In order to use this module, you should have:
 From within your apostrophe project directory, run
  `npm install --save ec-soundcloud`
 
-Include widget in projects' app.js file:
 
+#### Configuration
+Include widget in projects' app.js file:
 ```
 bundles: ['ec-soundcloud'],
 modules: {
@@ -33,8 +34,6 @@ modules: {
 }
 ```
 
-### Configuration
-todo
 
 ### Screenshots
 ![Focus View](http://porterlibby.herokuapp.com/img_content/ec-soundcloud.png)
