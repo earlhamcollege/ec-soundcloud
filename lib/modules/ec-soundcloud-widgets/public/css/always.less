@@ -5,7 +5,6 @@
 
     .data-user{
         padding: 20px;
-        height: 100px;
         cursor: pointer;
 
         #user-image{
@@ -55,6 +54,16 @@
                 margin-bottom: 5px;
             }
         }
+        @media only screen and (max-width: 768px) {
+            .img_div{
+                height: 125px;
+                padding-top: 15px;
+            }
+            .text_div{
+                max-height: 250px;
+                height: 150px;
+            }
+        }
     }
     .feature-block{
         background-repeat: no-repeat;
@@ -64,6 +73,11 @@
         display: inline-block;
         vertical-align:top;
         top: 0;
+    }
+    @media only screen and (max-width: 768px) {
+        .feature-block{
+            width: 80%;
+        }
     }
 
     
@@ -140,3 +154,4 @@
         }
     }
 }
+
