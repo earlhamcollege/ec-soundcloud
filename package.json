@@ -1,6 +1,6 @@
 {
   "name": "ec-soundcloud",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Display Soundcloud Data",
   "main": "index.js",
   "scripts": {
